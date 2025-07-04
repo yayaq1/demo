@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "vercel-build": "next build"
+    "vercel-build": "next build && cp -r out dist"
   },
   "dependencies": {
     "next": "14.0.0",
